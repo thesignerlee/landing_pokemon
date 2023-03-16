@@ -109,7 +109,7 @@
 .campaign5 .led p {}
 .campaign5 .led p img {}
 .campaign5 .comment {}
-.campaign5 .comment p {}
+.campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
 .campaign6 {}
 .campaign6 .cham {}
