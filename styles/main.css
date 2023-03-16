@@ -61,12 +61,12 @@
   align-items: center;}
 .campaign3 .container .jas {}
 .campaign3 .container .jas p {text-align: center;}
-.campaign3 .container .jas p img {width: 100%;}
-.campaign3 .container .jas p span {}
+.campaign3 .container .jas p img {width: 100%; margin-bottom: 50px;}
+.campaign3 .container .jas p span {line-height: 1.5; font-size: 1.2rem;}
 .campaign3 .container .jam {}
 .campaign3 .container .jam p {text-align: center;}
 .campaign3 .container .jam p img {width: 100%;}
-.campaign3 .container .jam p span {}
+.campaign3 .container .jam p span {line-height: 1.5; font-size: 1.2rem;}
 .campaign3 p {}
 .campaign3 > p {margin-top: 30px; text-align: end;}
 /* 캠페인4 */
@@ -88,11 +88,11 @@
 .campaign4 .container .go1 {}
 .campaign4 .container .go1 p {width: 500px; height:305px; margin-right:25px;}
 .campaign4 .container .go1 p img {width: 100%; margin-bottom: 20px;}
-.campaign4 .container .go1 p span {}
+.campaign4 .container .go1 p span {font-size: 1.2rem;}
 .campaign4 .container .go2 {}
 .campaign4 .container .go2 p {width: 500px; height:305px; margin-left:25px;}
 .campaign4 .container .go2 p img {width: 100%; margin-bottom: 20px;}
-.campaign4 .container .go2 span {}
+.campaign4 .container .go2 span {font-size: 1.2rem;}
 .campaign4 .comment {}
 .campaign4 .comment h1 {margin-bottom: 30px;}
 .campaign4 .comment p {}
@@ -112,8 +112,10 @@
 .campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
 .campaign6 {}
-.campaign6 .cham {}
-.campaign6 .cham p {}
-.campaign6 .cham p img {}
-.campaign6 h1 {}
-.campaign6 p {}
+.campaign6 .container {}
+.campaign6 .container .cham {}
+.campaign6 .container .cham p {}
+.campaign6 .container .cham p img {}
+.campaign6 .container .cham {}
+.campaign6 .container .cham2 p {}
+.campaign6 .container .cham2 p img {}
