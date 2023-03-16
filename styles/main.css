@@ -107,15 +107,20 @@
 .campaign5 h1 {font-size: 2.5rem; font-weight: 600; margin-bottom: 50px;}
 .campaign5 .led {}
 .campaign5 .led p {}
-.campaign5 .led p img {}
+.campaign5 .led p img {width:75%;}
 .campaign5 .comment {}
 .campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
-.campaign6 {}
-.campaign6 .container {}
-.campaign6 .container .cham {}
-.campaign6 .container .cham p {}
-.campaign6 .container .cham p img {}
-.campaign6 .container .cham {}
-.campaign6 .container .cham2 p {}
-.campaign6 .container .cham2 p img {}
+.campaign6 {text-align: center;}
+.campaign6 h1 {font-size: 2.5rem; font-weight: 600; margin: 100px 0;}
+.campaign6 .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.campaign6 .container .cham {text-align: center; margin-bottom: 50px;}
+.campaign6 .container .cham p img {width:75%;}
+.campaign6 .container .cham {margin-bottom: 300px;}
+.campaign6 .container .cham2 > p {text-align: center; font-size: 1.2rem; margin-top: 20px; line-height: 1.5;}
+.campaign6 .container .cham2 p img {width:100%;}
