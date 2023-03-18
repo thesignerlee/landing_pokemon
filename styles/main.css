@@ -20,7 +20,7 @@ body {background: rgba(251,237,172,100);}
 /* 프로모션 영상 */
 .promo {}
 .promo .container {text-align: center; margin: 100px 0;}
-.promo .container iframe {}
+.promo .container video {width:1080px;}
 /* 캠페인1 */
 .campaign1 {
   display: flex;
