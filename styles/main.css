@@ -1,3 +1,5 @@
+.fix {position: fixed; right:-100px; bottom: 30px;}
+.fix img {width: 50%;}
 /* 공통 */
 .comment {text-align: center;}
 .comment h1 {font-size: 2.5rem; font-weight: 600;}
@@ -12,7 +14,7 @@
 #visual_bg .container a {}
 #visual_bg .container a img {width:100%;}
 /* 대화면페이지 */
-#page_1 {}
+#page_1 {margin: 0 auto;}
 #page_1 img {width:100%;}
 /* 프로모션 영상 */
 #promo {}
