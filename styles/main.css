@@ -1,6 +1,8 @@
 body {background: rgba(251,237,172,100);}
-.fix {position: fixed; right:-120px; bottom: 30px;}
-.fix img {width: 45%;}
+.fix {
+  position: fixed; right: -65px; bottom:20px;
+}
+.fix img {width: 60%;}
 /* 공통 */
 .comment {text-align: center;}
 .comment h1 {font-size: 2.5rem; font-weight: 600;}
@@ -22,19 +24,21 @@ body {background: rgba(251,237,172,100);}
 .promo .container {text-align: center; margin: 100px 0;}
 .promo .container video {width:1080px;}
 /* 캠페인1 */
-.campaign1 {
+.campaign1 {}
+.campaign1 .container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
 }
-.campaign1 .comment {}
-.campaign1 .comment h1 {margin-bottom: 45px;}
-.campaign1 .comment p {}
-.campaign1 .comment h1, .campaign1 .comment p {margin-right:300px;}
-.campaign1 p {}
-.campaign1 p img {width:150%; margin-right: 200px;}
+.campaign1 .container .comment {}
+.campaign1 .container .comment h1 {margin-bottom: 45px;}
+.campaign1 .container .comment p {}
+.campaign1 .container .comment h1, .campaign1 .comment p {margin-left: 50px;}
+.campaign1 .container p {}
+.campaign1 .container p img {width: 100%; margin-right: 100px;}
+.bg_3 {background: white; width:100%;}
 /* 캠페인2 */
 
 .campaign2 {
@@ -44,7 +48,7 @@ body {background: rgba(251,237,172,100);}
   align-items: center;
 }
 .campaign2 p {}
-.campaign2 > p {padding-left: 200px;}
+.campaign2 > p {padding-left: 100px;}
 .campaign2 p img {}
 .campaign2 .comment {padding-right: 50px;}
 .campaign2 .comment h1 {margin-bottom: 45px;}
@@ -128,7 +132,9 @@ body {background: rgba(251,237,172,100);}
 .campaign6 .container .cham {margin-bottom: 300px;}
 .campaign6 .container .cham2 > p {text-align: center; font-size: 1.2rem; margin-top: 20px; line-height: 1.5;}
 .campaign6 .container .cham2 p img {width:100%;}
-footer {
+footer {}
+/* background-attachment: fixed; */
+/* footer {
 
 }
 footer .footer {
@@ -136,5 +142,4 @@ footer .footer {
   background-size: cover;
   background-attachment: fixed;
   height:1000px; width:100%;
-}
-/* background-attachment: fixed; */
+} */
