@@ -52,7 +52,7 @@ p > span {font-size: 2rem;}
   display: block;
 }
 /* 캠페인1 */
-.campaign1 {position: relative; left: 0; top: -357px; width: 1240px; padding: 0 100px;}
+.campaign1 {position: relative; left: 0; top: -257px; width: 1240px; padding: 0 100px;}
 .campaign1 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -76,7 +76,7 @@ p > span {font-size: 2rem;}
   justify-content: space-between;
   align-items: center;
   padding: 0 150px;
-  position: relative; left:0; top:-300px;
+  position: relative; left:0; top:-150px;
 }
 .campaign2 ul {
   display: flex;
@@ -84,27 +84,40 @@ p > span {font-size: 2rem;}
 }
 .campaign2 ul li {
   width:240px; height:240px; background: white; border-radius: 15px;
+  transition: all 0.3s;
 }
 .campaign2 ul .ye {
-  background-color: red;
-  background-position: center;
-  width: 240px; height:240px;
+  background-color: #d87c46;
   display: block;
   background-repeat:  no-repeat;
   background-position: center;
-background-image: url(../images/p_1.png);
+  background-image: url(../images/p_1.png);
 }
-.campaign2 ul .ull {margin: 0 10px;   background-image: url(../images/p_2.png);
-  background-position: 0 -120px; background-color: blue;
-  background-repeat:  no-repeat;}
-.campaign2 ul .hen { background-image: url(../images/p_3.png);
-  background-position: -30px -80px; background-color: #0f0;
+.campaign2 ul .ye:hover {
   background-repeat:  no-repeat;
+  background-position: center;
+  background-image: url(../images/p_1_1.png);
+}
+.campaign2 ul .ull {margin: 0 10px; background-image: url(../images/p_2.png);
+  background-position: 0 -120px; background-color: #a3cddf;
+  background-repeat:  no-repeat;}
+  .campaign2 ul .ull:hover {
+    margin: 0 10px; background-image: url(../images/p_2_2.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+  }
+.campaign2 ul .hen { background-image: url(../images/p_3.png);
+  background-position: -30px -80px; background-color: #b3d07e;
+  background-repeat:  no-repeat;
+}
+.campaign2 ul .hen:hover {
+  background-image: url(../images/p_3_3.png);
+  background-repeat:  no-repeat;
+  background-position: center;
 }
 .campaign2 .comment h1 {margin-bottom: 45px;}
 .campaign2 .comment h1 span {color: #0f0;}
 .campaign2 .comment p {}
-.campaign2 .comment p span {}
 .campaign2 .comment p span:nth-child(2) {color: red;}
 .campaign2 .comment p span:nth-child(3) {color: blue;}
 .campaign2 .comment p span:last-child {color: green;}
@@ -119,7 +132,7 @@ background-image: url(../images/p_1.png);
   padding: 0 100px;
 }
 .campaign3 .comment {text-align: center; margin-top: 30px;}
-.campaign3 .comment h1 {margin-bottom: 0px;}
+.campaign3 .comment h1 {}
 .campaign3 .comment h1:hover {color: red;}
 .campaign3 .container {display: flex;
   flex-flow: row nowrap;
@@ -129,31 +142,33 @@ background-image: url(../images/p_1.png);
 .campaign3 .container .jas p {text-align: center;}
 .campaign3 .container .jas p img {width: 70%; margin-bottom: 30px;}
 .campaign3 .container .jas p span {
-  line-height: 1.5; font-size: 1.2rem;
+  line-height: 1.5; font-size: 2rem;
   display: block;
 }
+.campaign3 .container .jas p span:hover {color:red;}
 .campaign3 .container .jam {}
 .campaign3 .container .jam p {text-align: center;}
 .campaign3 .container .jam p img {width: 70%;
 margin-bottom: 15px;}
 .campaign3 .container .jam p span {
-  line-height: 1.5; font-size: 1.2rem;
+  line-height: 1.5; font-size: 2rem;
   display: block;
 }
-.campaign3 p {}
+.campaign3 .container .jam p span:hover {color:blue;}
+.campaign3 p {font-size: 1.5rem;}
 .campaign3 > p {margin: 30px 0; text-align: center;}
 .bg_5 {
   background: linear-gradient( to right bottom, blue, red );
 }
 /* 캠페인4 */
 .campaign4 {
-  display: flex;
+  display: flex; margin: 100px 0;
   flex-flow: column wrap;
   justify-content: space-between;
   align-content: center;
   text-align: center;
 }
-.campaign4 h1 {font-size: 2.5rem; font-weight: 600;}
+.campaign4 h1 {font-size: 4rem; font-weight: 600;}
 .campaign4 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -162,15 +177,17 @@ margin-bottom: 15px;}
   margin: 50px;
 }
 .campaign4 .container .go1 {}
-.campaign4 .container .go1 p {width: 500px; height:305px; margin-right:25px;}
-.campaign4 .container .go1 p img {width: 100%; margin-bottom: 20px;}
-.campaign4 .container .go1 p span {font-size: 1.2rem;}
+.campaign4 .container .go1 p {
+  width: 500px; height:305px; margin-right:25px; font-size: 2rem;
+}
+.campaign4 .container .go1 p img {width: 100%; margin-bottom: 20px;   border-radius: 25px;}
+.campaign4 .container .go1 p span {color: #870180;}
 .campaign4 .container .go2 {}
-.campaign4 .container .go2 p {width: 500px; height:305px; margin-left:25px;}
-.campaign4 .container .go2 p img {width: 100%; margin-bottom: 20px;}
-.campaign4 .container .go2 span {font-size: 1.2rem;}
+.campaign4 .container .go2 p {width: 500px; height:305px; margin-left:25px; font-size: 2rem;}
+.campaign4 .container .go2 p img {width: 100%; margin-bottom: 20px;   border-radius: 25px;}
+.campaign4 .container .go2 span {color: #006400;}
 .campaign4 .comment {}
-.campaign4 .comment h1 {margin-bottom: 30px; font-size: 2rem;}
+.campaign4 .comment h1 {margin-top: 30px; font-size: 3rem;}
 .campaign4 .comment p {}
 /* 캠페인5 */
 .campaign5 {
@@ -182,12 +199,12 @@ margin-bottom: 15px;}
 }
 .campaign5 h1 {font-size: 2.5rem; font-weight: 600; margin-bottom: 50px;}
 .campaign5 .led {}
-.campaign5 .led p {}
+.campaign5 .led p {height:400px; overflow: hidden;}
 .campaign5 .led p img {width:75%;}
 .campaign5 .comment {}
 .campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
-.campaign6 {text-align: center;}
+.campaign6 {text-align: center; margin-bottom: 100px;}
 .campaign6 h1 {font-size: 2.5rem; font-weight: 600; margin: 100px 0;}
 .campaign6 .container {
   display: flex;
@@ -196,10 +213,8 @@ margin-bottom: 15px;}
   align-items: center;
 }
 .campaign6 .container .cham {text-align: center; margin-bottom: 50px;}
-.campaign6 .container .cham p img {width:75%;}
+.campaign6 .container .cham p img {width:auto;}
 .campaign6 .container .cham {margin-bottom: 100px;}
-.campaign6 .container .cham2 > p {text-align: center; font-size: 1.2rem; margin-top: 20px; line-height: 1.5;}
-.campaign6 .container .cham2 p img {width:100%;}
 footer {
   width: 1240px;
   margin: 0 auto;
