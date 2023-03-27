@@ -1,6 +1,8 @@
-body {background: rgba(251,237,172,100);}
+body {background: #333; color:white;
+  overflow-x: hidden;
+}
 .fix {
-  position: fixed; right: 30px; bottom:20px;
+  position: fixed; right: 30px; bottom:20px; z-index: 900;
   background: url(../images/monsterball_closed.png) no-repeat;
   background-size: cover;
   width: 140px;
@@ -12,56 +14,102 @@ body {background: rgba(251,237,172,100);}
   width: 170px;
   height: 200px;
 }
+.logogo {position: relative; left: 500px; top: -5px; z-index: 999; text-align: center;
+  font-size: 3rem;
+  color:#eee;
+}
 /* 공통 */
 .comment {text-align: center;}
-.comment h1 {font-size: 2.5rem; font-weight: 600;}
-.comment p {font-size: 1.5rem;}
+.comment h1 {font-size: 3rem; font-weight: 600;}
+.comment p {font-size: 2rem;}
 .comment h1, .comment p {line-height: 1.5;}
-#logo, .page_1, .promo,
-.campaign1, .campaign2,
-.campaign4, .campaign5, .campaign6 {width:1240px; margin: 150px auto;}
+h1 > span {font-size: 4rem;}
+p > span {font-size: 2rem;}
 /* 로고 */
-#logo {margin: 0 auto;}
+#logo { position: relative; z-index: 999; left: 200px; top:-96px;}
 #logo .container {width:60px; height: 60px;}
 #logo .container a {}
 #logo .container a img {width:100%;}
-/* 대화면페이지 */
-.page_1 {margin: 0 auto;}
-.page_1 img {width:100%;}
 /* 프로모션 영상 */
-.promo {}
-.promo .container {text-align: center; margin: 100px 0;}
-.promo .container video {width:1080px;}
+.promo {
+  height: 900px; overflow: hidden;  position: relative; left:0; top:-156px; 
+}
+.promo .container {text-align: center;}
+.promo .container video {
+  width:100%; 
+  translate: (-50%, 0);
+  display: block;
+}
+/* 대화면페이지 */
+.page_1 {
+  width:1920px; height: 400px; overflow: hidden; margin-bottom: 200px;
+  position: relative; left:0; top:-157px;
+}
+.page_1 p {}
+.page_1 p span {
+  background: url(../images/sword_shield.png) no-repeat; width:100%; height:400px;
+  background-size: cover;
+  display: block;
+}
 /* 캠페인1 */
-.campaign1 {}
+.campaign1 {position: relative; left: 0; top: -357px; width: 1240px; padding: 0 100px;}
 .campaign1 .container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
 }
-.campaign1 .container .comment {padding-left: 200px;}
+.campaign1 .container .comment {padding-left: 100px;}
 .campaign1 .container .comment h1 {margin-bottom: 45px;}
+.campaign1 .container .comment h1 span {font-size: 5rem; color: skyblue}
 .campaign1 .container .comment p {}
 .campaign1 .container .comment h1, .campaign1 .comment p {margin-left: 50px;}
 .campaign1 .container p {}
-.campaign1 .container p img {width: 80%; margin-right: 400px;}
-.bg_3 {background: white; width:100%;}
+.campaign1 .container p span {color:#db4455;}
+.campaign1 .container p span:last-child {color:greenyellow;}
+.campaign1 .container p img {width: 80%;}
+.bg_3 {width:100%;}
 /* 캠페인2 */
-
 .campaign2 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  padding: 0 150px;
+  position: relative; left:0; top:-300px;
 }
-.campaign2 p {}
-.campaign2 > p {padding-left: 100px;}
-.campaign2 p img {}
-.campaign2 .comment {padding-right: 50px;}
+.campaign2 ul {
+  display: flex;
+  box-flex: row nowrap;
+}
+.campaign2 ul li {
+  width:240px; height:240px; background: white; border-radius: 15px;
+}
+.campaign2 ul .ye {}
+.campaign2 ul .ye span {
+  background-position: center;
+  width: 240px; height:240px;
+  display: block;
+  background-repeat:  no-repeat;
+}
+.campaign2 ul .ye span {  background-image: url(../images/p_1.png);
+
+}
+.campaign2 ul .ull { background: url(../images/p_2.png) no-repeat;
+  background-position: center;
+  margin: 0 10px;}
+.campaign2 ul .hen { background: url(../images/p_3.png) no-repeat;
+  background-position: center;
+}
 .campaign2 .comment h1 {margin-bottom: 45px;}
+.campaign2 .comment h1 span {color: #0f0;}
 .campaign2 .comment p {}
+.campaign2 .comment p span {}
+.campaign2 .comment p span:nth-child(2) {color: red;}
+.campaign2 .comment p span:nth-child(3) {color: blue;}
+.campaign2 .comment p span:last-child {color: green;}
+.campaign2 .comment p img {}
+.campaign2 .comment {padding-right: 50px;}
 /* 캠페인3 */
 .campaign3 {
   display: flex;
@@ -71,18 +119,17 @@ body {background: rgba(251,237,172,100);}
   padding: 0 100px;
 }
 .campaign3 .comment {text-align: center; margin-top: 30px;}
-.campaign3 .comment h1 {margin-bottom: 30px;}
-.campaign3 .comment h1:hover {color: #fff;}
+.campaign3 .comment h1 {margin-bottom: 0px;}
+.campaign3 .comment h1:hover {color: red;}
 .campaign3 .container {display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;}
 .campaign3 .container .jas {}
 .campaign3 .container .jas p {text-align: center;}
-.campaign3 .container .jas p img {width: 70%; margin-bottom: 50px;}
+.campaign3 .container .jas p img {width: 70%; margin-bottom: 30px;}
 .campaign3 .container .jas p span {
   line-height: 1.5; font-size: 1.2rem;
-  margin-top: 15px;
   display: block;
 }
 .campaign3 .container .jam {}
@@ -94,7 +141,7 @@ margin-bottom: 15px;}
   display: block;
 }
 .campaign3 p {}
-.campaign3 > p {margin-top: 30px; text-align: end;}
+.campaign3 > p {margin: 30px 0; text-align: center;}
 .bg_5 {
   background: linear-gradient( to right bottom, blue, red );
 }
@@ -164,15 +211,15 @@ footer {
 }
 .footer .t {margin: 30px;
 }
-.footer .t a {margin-right: 50px; color:#fff;}
+.footer .t a {margin-right: 50px; color:#fff; font-size: 2rem; line-height: 1.8;}
 .footer .t a:hover {
   text-decoration: underline;
   color: rgba(251,237,172,100);
 }
 .footer .t a:last-child {margin:0;}
 .footer .btm {}
-.footer .btm address {font-size: 0.7rem; line-height: 1.8;}
-.footer p{font-size: 0.7rem; margin-top: 50px; margin-bottom: 30px;}
+.footer .btm address {font-size: 1.5rem; line-height: 1.8;}
+.footer p{font-size: 1.5rem; margin-top: 50px; margin-bottom: 30px;}
 .bg_9 {width:100%; background: #222;}
 /* background-attachment: fixed; */
 /* footer {
