@@ -204,7 +204,7 @@ margin-bottom: 15px;}
 .campaign5 .comment {}
 .campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
-.campaign6 {text-align: center; margin-bottom: 100px;}
+.campaign6 {width: 1240px; text-align: center; margin-bottom: 100px;}
 .campaign6 h1 {font-size: 2.5rem; font-weight: 600; margin: 100px 0;}
 .campaign6 .container {
   display: flex;
@@ -213,10 +213,9 @@ margin-bottom: 15px;}
   align-items: center;
 }
 .campaign6 .container .cham {text-align: center; margin-bottom: 50px;}
-.campaign6 .container .cham p img {width:auto;}
+.campaign6 .container .cham p img {width:80%;}
 .campaign6 .container .cham {margin-bottom: 100px;}
 footer {
-  width: 1240px;
   margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
