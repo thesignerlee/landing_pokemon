@@ -226,15 +226,15 @@ footer {
 }
 .footer .t {margin: 30px;
 }
-.footer .t a {margin-right: 50px; color:#fff; font-size: 2rem; line-height: 1.8;}
+.footer .t a {margin-right: 50px; color:#fff; font-size: 1.5rem; line-height: 1.8;}
 .footer .t a:hover {
   text-decoration: underline;
   color: rgba(251,237,172,100);
 }
 .footer .t a:last-child {margin:0;}
 .footer .btm {}
-.footer .btm address {font-size: 1.5rem; line-height: 1.8;}
-.footer p{font-size: 1.5rem; margin-top: 50px; margin-bottom: 30px;}
+.footer .btm address {font-size: 1.2rem; line-height: 1.8;}
+.footer p{font-size: 1.2rem; margin-top: 50px; margin-bottom: 30px;}
 .bg_9 {width:100%; background: #222;}
 /* background-attachment: fixed; */
 /* footer {
