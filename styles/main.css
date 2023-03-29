@@ -169,6 +169,7 @@ margin-bottom: 15px;}
   text-align: center;
 }
 .campaign4 h1 {font-size: 4rem; font-weight: 600;}
+.campaign4 h1 span {font-size: 4rem; font-weight: 600; color:#006400}
 .campaign4 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -199,22 +200,24 @@ margin-bottom: 15px;}
 }
 .campaign5 h1 {font-size: 2.5rem; font-weight: 600; margin-bottom: 50px;}
 .campaign5 .led {}
-.campaign5 .led p {height:400px; overflow: hidden;}
-.campaign5 .led p img {width:75%;}
+.campaign5 .led p {height:400px; overflow: hidden; border-radius: 25px;}
+.campaign5 .led p img {width:75%; }
 .campaign5 .comment {}
 .campaign5 .comment p {margin-top: 50px;}
 /* 캠페인6 */
-.campaign6 {width: 1240px; text-align: center; margin-bottom: 100px;}
-.campaign6 h1 {font-size: 2.5rem; font-weight: 600; margin: 100px 0;}
+.campaign6 {width: 1300px; text-align: center; margin-bottom: 100px; margin: 0 auto;}
+.campaign6 h1 {font-size: 4rem; font-weight: 600; margin: 100px 0;}
 .campaign6 .container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
-.campaign6 .container .cham {text-align: center; margin-bottom: 50px;}
-.campaign6 .container .cham p img {width:80%;}
-.campaign6 .container .cham {margin-bottom: 100px;}
+.campaign6 .container {text-align: center; margin-bottom: 50px;}
+.campaign6 .container p {}
+.campaign6 .container p:first-child {width:800px;}
+.campaign6 .container p:last-child {font-size: 2rem; line-height: 1.5;}
+.campaign6 .container p:first-child img {width: 90%;}
 footer {
   margin: 0 auto;
   display: flex;
@@ -225,7 +228,7 @@ footer {
 }
 .footer .t {margin: 30px;
 }
-.footer .t a {margin-right: 50px; color:#fff; font-size: 1.5rem; line-height: 1.8;}
+.footer .t a {margin-right: 50px; color:#fff; font-size: 1.5rem; line-height: 1.5;}
 .footer .t a:hover {
   text-decoration: underline;
   color: rgba(251,237,172,100);
