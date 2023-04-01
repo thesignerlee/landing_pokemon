@@ -29,7 +29,7 @@ h1 {font-family: 'Jua', sans-serif;}
 .comment h1 {font-size: 3rem; line-height: 1.6;}
 .comment p {font-size: 2rem; line-height: 1.6;}
 .comment h1, .comment p {line-height: 1.5; letter-spacing: 0.1em;}
-h1 > span {font-size: 4rem; font-family: 'Jua', sans-serif;}
+h1 > span {font-size: 3rem; font-family: 'Jua', sans-serif;}
 p > span {font-size: 2rem;}
 /* 로고 */
 #logo {position:absolute; z-index: 999; top:0; left:10%;}
