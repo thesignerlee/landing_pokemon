@@ -16,19 +16,21 @@ body {background: #333;
   height: 200px;
 }
 .logogo {position: absolute;z-index: 999; text-align: center; left: 50%; top:50%; transform: translate(-50%, -50%);
-  font-size: 3rem; text-transform: uppercase;
+  text-transform: uppercase;
   color:#eee; padding: 30px; display: inline-block;
 }
-.logogo h1 {padding:15px;}
+.logogo h1 {padding:15px; }
 .logogo h2 {}
-.logogo h1,
-.logogo h2 {font-size: 3rem; font-family: 'Jua', sans-serif; text-shadow: 0 0 10px #db4455; }
+.logogo h1 span {font-size: 4rem;}
+.logogo h2 span {font-size: 3rem;}
+.logogo h1 span,
+.logogo h2 span {font-size: 3rem; font-family: 'Jua', sans-serif; background-color:#db4455; }
 /* 공통 */
 h1 {font-family: 'Jua', sans-serif;}
-.comment {text-align: center; line-height: 1.6;}
-.comment h1 {font-size: 3rem; line-height: 1.6;}
-.comment p {font-size: 2rem; line-height: 1.6;}
-.comment h1, .comment p {line-height: 1.5; letter-spacing: 0.1em;}
+.comment {text-align: center; line-height: 2.3;}
+.comment h1 {font-size: 3rem; line-height: 2.3;}
+.comment p {font-size: 2rem; line-height: 2.3;}
+.comment h1, .comment p {line-height: 1.5; letter-spacing: 0.02em;}
 h1 > span {font-size: 3rem; font-family: 'Jua', sans-serif;}
 p > span {font-size: 2rem;}
 /* 로고 */
@@ -116,9 +118,9 @@ p > span {font-size: 2rem;}
 .campaign2 .comment h1 {margin-bottom: 45px; color:white;}
 .campaign2 .comment h1 span {color: #0f0;}
 .campaign2 .comment p {color:white;}
-.campaign2 .comment p span:nth-child(2) {color: red;}
-.campaign2 .comment p span:nth-child(3) {color: blue;}
-.campaign2 .comment p span:last-child {color: green;}
+.campaign2 .comment p span:nth-child(2) {color: #d87c46;}
+.campaign2 .comment p span:nth-child(3) {color: #a3cddf;}
+.campaign2 .comment p span:last-child {color: #B4EEB4;}
 .campaign2 .comment p img {}
 .campaign2 .comment {padding-right: 50px;}
 /* 캠페인3 */
@@ -202,9 +204,9 @@ p span {letter-spacing: -0.02em;}
   justify-content: space-between;
   align-content: center;
   text-align: center;
-}
-.campaign5 h1 {font-size: 4rem; margin-bottom: 50px; color:white;}
-.campaign5 h1 span {font-size: 4rem; color: gold;}
+} 
+.campaign5 h1 {font-size: 4rem; margin-bottom: 50px; color:white; letter-spacing:-0.02em;}
+.campaign5 h1 span {font-size: 4rem; color: gold; letter-spacing:-0.02em;}
 .campaign5 .led {
   display: flex;
   flex-flow: row nowrap;
@@ -220,13 +222,13 @@ p span {letter-spacing: -0.02em;}
 .campaign5 .led p:last-child img {width:90%;}
 .campaign5 .led p img { width:100%; border-radius: 25px; }
 .campaign5 .comment {}
-.campaign5 .comment p {color:white;}
+.campaign5 .comment p {color:white; letter-spacing:-0.02em;}
 /* 캠페인6 */
 .campaign6 {text-align: center; margin-bottom: 100px; margin: 0 auto; background:  #1C2331;
   padding: 150px 300px;
 }
 .campaign6 h1 {font-size: 4rem; margin-bottom: 50px; color:white;}
-.campaign6 h1 span {font-size: 4rem; color: #8f87b6;}
+.campaign6 h1 span {font-size: 4rem; color: #f6d88c;}
 .campaign6 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -248,15 +250,15 @@ footer {
 }
 .footer .t {margin: 30px;
 }
-.footer .t a {margin-right: 50px; color:#fff; font-size: 1.5rem; line-height: 1.5;}
+.footer .t a {margin-right: 50px; color:#fff; font-size: 1.2rem; line-height: 1.5;}
 .footer .t a:hover {
   text-decoration: underline;
   color: rgba(251,237,172,100);
 }
 .footer .t a:last-child {margin:0;}
 .footer .btm {}
-.footer .btm address {font-size: 1.2rem; line-height: 1.8;}
-.footer p{font-size: 1.2rem; margin-top: 50px; margin-bottom: 30px;}
+.footer .btm address {font-size: 0.9rem; line-height: 1.8;}
+.footer p{font-size: 1rem; margin-top: 50px; margin-bottom: 30px;}
 .bg_9 {width:100%; background: #222;}
 /* background-attachment: fixed; */
 /* footer {
