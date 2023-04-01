@@ -21,17 +21,17 @@ body {background: #333;
 }
 .logogo h1 {padding:15px; }
 .logogo h2 {}
-.logogo h1 span {font-size: 4rem;}
+.logogo h1 span {font-size: 4rem; background-color:#db4455; }
 .logogo h2 span {font-size: 3rem;}
 .logogo h1 span,
-.logogo h2 span {font-size: 3rem; font-family: 'Jua', sans-serif; background-color:#db4455; }
+.logogo h2 span {font-family: 'Jua', sans-serif; }
 /* 공통 */
 h1 {font-family: 'Jua', sans-serif;}
 .comment {text-align: center; line-height: 2.3;}
 .comment h1 {font-size: 3rem; line-height: 2.3;}
 .comment p {font-size: 2rem; line-height: 2.3;}
 .comment h1, .comment p {line-height: 1.5; letter-spacing: 0.02em;}
-h1 > span {font-size: 3rem; font-family: 'Jua', sans-serif;}
+h1 > span {font-family: 'Jua', sans-serif;}
 p > span {font-size: 2rem;}
 /* 로고 */
 #logo {position:absolute; z-index: 999; top:0; left:10%;}
@@ -116,7 +116,7 @@ p > span {font-size: 2rem;}
   background-position: center;
 }
 .campaign2 .comment h1 {margin-bottom: 45px; color:white;}
-.campaign2 .comment h1 span {color: #0f0;}
+.campaign2 .comment h1 span {color: #0f0; font-size: 3rem;}
 .campaign2 .comment p {color:white;}
 .campaign2 .comment p span:nth-child(2) {color: #d87c46;}
 .campaign2 .comment p span:nth-child(3) {color: #a3cddf;}
